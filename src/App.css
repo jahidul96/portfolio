@@ -1,0 +1,10 @@
+.footerDiv {
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.footerDiv>p {
+    font-weight: 600;
+}

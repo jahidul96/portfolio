@@ -1,0 +1,59 @@
+.myprojects {
+    color: #fff;
+    margin: 50px auto;
+    width: 90%;
+}
+
+.allBtnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectBtn {
+    margin-left: 15px;
+    background-color: #fff;
+    outline: none;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.projectImgRootFlex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
+
+.projectImg {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    transition: 5s ease;
+    margin-bottom: 30px;
+}
+
+.projectImg:hover {
+    transform: scale(1.3);
+    overflow: hidden;
+    height: 100%;
+}
+
+@media only screen and (max-width: 1336px) {
+    .projectImg {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .projectImg {
+        width: 350px;
+    }
+
+    .projectImg:hover {
+        transform: scale(1.2);
+        overflow: hidden;
+    }
+}

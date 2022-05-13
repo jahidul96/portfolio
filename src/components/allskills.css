@@ -1,0 +1,218 @@
+.allskills {
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    overflow: hidden;
+}
+
+.allWrapper {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.relativeDiv {
+    position: relative;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.ReactDiv {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    width: 100px;
+    height: 80px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, red, #4B7BE5);
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: waves 5s linear infinite reverse;
+    opacity: 0.9;
+}
+
+.api {
+    position: absolute;
+    top: 220px;
+    left: 50px;
+    width: 100px;
+    height: 80px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #ff008c, blue);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: waves 5s linear infinite reverse;
+    opacity: 0.9;
+}
+
+.bootstarp {
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    width: 100px;
+    height: 80px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #F8CB2E, blue);
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: newWaves 5s linear infinite reverse;
+    opacity: 0.9;
+}
+
+.ReactNative {
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    width: 100px;
+    height: 80px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #92834d, blue);
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: waves 10s linear infinite reverse;
+}
+
+.firebase {
+    position: absolute;
+    top: 120px;
+    right: 20px;
+    width: 100px;
+    height: 80px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #dcbb44, rgb(28, 28, 124));
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: waves 30s linear infinite reverse;
+    opacity: .9;
+}
+
+.webdesign {
+    position: absolute;
+    top: 170px;
+    left: 40px;
+    width: 100px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: #fff;
+    font-weight: 600;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: waves 20s linear infinite reverse;
+}
+
+.Nodejs {
+    position: absolute;
+    top: 100px;
+    right: 40px;
+    width: 100px;
+    height: 80px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #a08d50, rgb(112, 219, 146));
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: newWaves 15s linear infinite reverse;
+    opacity: .9;
+}
+
+.mongodb {
+    position: absolute;
+    top: 220px;
+    right: 50px;
+    width: 100px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: waves 5s linear infinite reverse;
+    opacity: .9;
+}
+
+.express {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    width: 100px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #333;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: newWaves 15s linear infinite reverse;
+    opacity: .9;
+
+}
+
+.mui {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    width: 100px;
+    height: 80px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #ff008c, blue);
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: topWaves 15s linear infinite reverse;
+    opacity: .9;
+}
+
+@keyframes waves {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 80%;
+    }
+}
+
+@keyframes newWaves {
+    from {
+        transform: translateY(-100px);
+    }
+
+    to {
+        transform: translateY(500px);
+    }
+}
+
+@keyframes topWaves {
+    from {
+        transform: translateY(500px);
+    }
+
+    to {
+        transform: translateY(-100px);
+    }
+}

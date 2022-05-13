@@ -1,0 +1,111 @@
+.skillsSection {
+    width: 80%;
+    margin: 50px auto;
+    overflow: hidden;
+    color: #fff;
+}
+
+.skillTextWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    margin: 25px 0;
+    border: 2px solid #ff008c;
+    width: 30%;
+    text-align: center;
+}
+
+.mainSkillDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+    flex-wrap: wrap;
+
+}
+
+.skillitem {
+    background-color: #fff;
+    color: #333;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.skillitem:nth-child(2) {
+    background-image: linear-gradient(to right, #ff008c, blue);
+    color: #fff;
+}
+
+.skillitem:nth-child(1) {
+    background-image: linear-gradient(to right, blue, red);
+    color: #fff;
+}
+
+.skillitem:nth-child(3) {
+    background-image: linear-gradient(to right, #00092C, red);
+    color: #fff;
+}
+
+
+
+.skillitem:hover {
+    background-image: linear-gradient(to right, #ff008c, blue);
+    color: #fff;
+    transition: 3s ease;
+}
+
+@media only screen and (max-width: 1160px) {
+    .skillitem {
+
+        width: 250px;
+
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .skillitem {
+
+        width: 200px;
+
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .skillitem {
+
+        height: 70px;
+
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    .skillitem {
+
+        width: 150px;
+
+    }
+
+    .mainSkillDiv {
+        margin: 30px 0;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .skillitem {
+
+        width: 100%;
+
+    }
+
+
+}
